@@ -1,0 +1,23 @@
+#ct {
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    width: clamp(50%, 800px, 100%);
+    flex-wrap: wrap;
+}
+
+img {
+    border: 2px solid white;
+    border-radius: 10px;
+    
+    /* max-width: 100%; */
+    /* flex-basis: 50%; */
+    flex-grow: 2;
+    /* flex-shrink: 2; */
+
+    width: clamp(200px, 50%, 100%);
+
+    box-sizing: border-box;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+}
